@@ -1,0 +1,126 @@
+html {
+  background: #87aaaa;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+}
+
+.body-content_Success {
+  padding-top: 7vh;
+}
+
+.container_Success {
+  width: 380px;
+  height: 660px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  border: 2px solid White;
+  border-radius: 15px;
+  background: #d3e4cd;
+  margin-top: -25px;
+  /* margin-top: -5px; */
+}
+
+.Company_Logo {
+  margin-top: 19px;
+}
+
+.Company_Logo img {
+  width: 130px;
+  margin: 10px;
+  margin-top: 0px;
+  border-radius: 70px;
+  height: 130px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-item {
+  /* margin: 5px; */
+  padding-bottom: 7px;
+  display: flex;
+}
+
+.form-item label {
+  display: block;
+  padding: 2px;
+  font-size: 20px;
+  width: 100px;
+}
+
+.form-item input {
+  width: 320px;
+  height: 35px;
+  border: 2px solid #e1dede69;
+  border-radius: 20px;
+  background: #e1dede69;
+  color: grey;
+}
+
+.form-btns {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding: 10px 0;
+  padding: 5px 0;
+}
+
+.form-btns button {
+  margin: auto;
+  font-size: 20px;
+  padding: 5px 15px;
+  border: 2px solid;
+  border-radius: 15px;
+  color: white;
+  background: #178cc6;
+  width: 280px;
+  cursor: pointer;
+}
+
+.options {
+  padding-top: 15px;
+  margin: auto;
+}
+
+.options a {
+  text-decoration: none;
+  color: black;
+  margin: 0 40px;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-size: 15px;
+}
+.options a:hover {
+  color: grey;
+}
+
+p {
+  text-align: center;
+  font-size: 15px;
+  /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+.signing {
+  text-align: center;
+  margin-top: -8px;
+}
+
+.error_email {
+  margin-top: -7px;
+  color: red;
+}
+
+.website {
+  /* margin-bottom: 12px; */
+  padding-bottom: 26px;
+  /* padding-bottom: -6px; */
+}
+
+.verified {
+  color: green;
+}
